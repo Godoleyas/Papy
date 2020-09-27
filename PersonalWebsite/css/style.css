@@ -1,0 +1,242 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  
+}
+
+ /* Set height to 100% for body and html to enable the background image to cover the whole page: */
+ body, html {
+  height: 100%
+}
+
+.bgimg {
+  /* Background image */
+  background-image: url('/w3images/forestbridge.jpg');
+  /* Full-screen */
+  height: 100%;
+  /* Center the background image */
+  background-position: center;
+  /* Scale and zoom in the image */
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  /* Add a white text color to all elements inside the .bgimg container */
+  color: white;
+  /* Add a font */
+  font-family: "Courier New", Courier, monospace;
+  /* Set the font-size to 25 pixels */
+  font-size: 25px;
+}
+
+/* Position text in the top-left corner */
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+/* Position text in the bottom-left corner */
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+/* Position text in the middle */
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the <hr> element */
+hr {
+  margin: auto;
+  width: 40%;
+} 
+
+ /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+
+  position: relative;
+  justify-content: center;
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  margin-top: 120px;
+  margin-left: 500px;
+  box-align: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+  color: rgb(0, 247, 255);
+} 
+
+/* end */
+
+
+
+#header {
+   font-family: 'Secular one', sans-serif;
+}
+
+#iam {
+   font-family: 'Secular one', sans-serif;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background: linear-gradient(to right, hsl(290, 92%, 42%), hsl(175, 100%, 50%));}
+#About {background: linear-gradient(to right, hsl(56, 94%, 51%), hsl(202, 100%, 50%));}
+#Skills {background: linear-gradient(to right, hsl(177, 100%, 58%), hsl(115, 97%, 47%));}
+#Contact {background: linear-gradient(to right, hsl(0, 94%, 50%), hsl(300, 97%, 47%));}
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.white {
+  color: black;
+}
+
+th {
+  font-family: 'Roboto', sans-serif;
+}
+
+td {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#username, #contact {
+  text-align: center;
+}
+
+.alink:hover, .alink:active, .alink:focus {
+  text-decoration: none;
+}
+
+.alink {
+  text-decoration: none;
+}
+
+.alink {
+  color: black;
+}
+
+.awhite {
+  color: white;
+}
+
+.skills {
+  position: relative;
+  margin: 30px auto 100px auto;
+}
+
+.skill-row {
+  line-height: 2;
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.JS {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.game {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.h3p {
+  font-family: 'Lato', sans-serif;
+  color: black;
+}
+
+.mipaan {
+  color: black;
+  font-family: 'Lato', sans-serif;
+}
