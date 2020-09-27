@@ -240,3 +240,9 @@ td {
   color: black;
   font-family: 'Lato', sans-serif;
 }
+
+@media (max-width: 830px) {
+  .flip-card-inner {
+    margin-left: 30px;
+  }
+}
