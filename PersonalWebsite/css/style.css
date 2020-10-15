@@ -207,6 +207,10 @@ td {
   color: white;
 }
 
+.main-contact {
+  margin-top: 40px;
+}
+
 .skills {
   position: relative;
   margin: 30px auto 100px auto;
