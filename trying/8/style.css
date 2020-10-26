@@ -1,0 +1,61 @@
+a {
+  text-decoration: none;
+  color: black;
+
+}
+
+a:hover, a:active {
+  color: cyan;
+}
+
+.buttons {
+  background-color: red;
+  cursor: pointer;
+  color: white;
+}
+
+.buttons:hover, .buttons:active {
+  background-color: white;
+  color: red;
+}
+
+.gender {
+  background-color: black;
+  color: white;
+}
+.gender:hover, .gender:active {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+#gender1 {
+  margin-left: 10px;
+}
+
+#gender2 {
+  margin-left: 25px;
+}
+
+
+
+.nameclass, .genderclass {
+  border: 1px solid black;
+  height: 100px;
+  width: 200px;
+  margin-left: 300px;
+  position: relative;
+  bottom: 150px;
+}
+
+#nameoutput {
+  text-align: center;
+}
+
+#genderoutput {
+  text-align: center;
+}
+
+#messageoff {
+  font-size: .99em;
+}

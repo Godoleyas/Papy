@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app='MsgApp'>
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <link id="DynamicStyling" rel="stylesheet" href="style.css">
+  <script src="angular.min.js"></script>
+  <script src="app.js"></script>
+
+  <title>Webdev</title>
+</head>
+<body style="position: relative;">
+
+  <div ng-controller='MsgController'>
+
+    <div>
+<h1 id = "haha1" style = "font-family: 'Roboto', sans-serif;">First tap the button you would like to join after that click Join our group link</h1>
+
+      <a href="{{linkoftg}}"><h1 style = "font-family: 'Roboto', sans-serif;">Join our group</h1></a><br>
+      <button class="buttons" ng-click="linkoftg1()" style = "font-family: 'Roboto', sans-serif;">Webdevchat</button>
+      <button class="buttons" ng-click="linkoftg2()" style = "font-family: 'Roboto', sans-serif;">Phpunofficial</button>
+      <button class="buttons" ng-click="darknessinput()" style = "font-family: 'Roboto', sans-serif;">Darkness</button><br>
+
+      <h1 id="messageoff" style = "font-family: 'Roboto', sans-serif;">{{messageof}}</h1>
+    </div>
+    <div>
+<input type="text" placeholder="Full Name" ng-model="namess"></input>
+<br> <button ng-click="genderoutputmale()" id="gender1" class="gender">Male</button><button ng-click="genderoutputfemale()" id="gender2" class="gender">Female</button>
+    </div>
+    <div id="profilebox"></div>
+    <div class="nameclass"><h3 id="nameoutput">{{namess}}</h3></div>
+    <div class="genderclass"><h3 id="genderoutput">{{gender}}</h3></div>
+
+    <div>
+
+      <h1>{{namesss}}</h1>
+    </div>
+
+    </div>
+
+    </div>
+  </div>
+  <div>
+
+  </div>
+  <script src="2ndscript.js"></script>
+</body>
+</html>
