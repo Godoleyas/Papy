@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="Appmodule">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Admin Request</title>
+  </head>
+  <body ng-controller="RequestController">
+    <div class="header">
+  <h1 id="header">{{message1}}</h1>
+  <p id="iam">{{message2}}</p>
+  <br>
+  <p>Type Something And Touch This Button To Change The Text</p>
+   <input id="inputtype" type="text" placeholder="Type Here" ng-model="message1updated"></input>
+   <button ng-click="inputsubmit()">Submit</button>
+   <button ng-click="reset()">Reset</button>
+</div>
+  </body>
+</html>
