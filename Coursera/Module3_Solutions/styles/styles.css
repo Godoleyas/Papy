@@ -50,12 +50,3 @@ input[type="text"] {
     transform: rotate(360deg);
   }
 }
-
-.float-right {
-  float: right;
-  display: inline;
-}
-
-.center {
-  text-align: center;
-}

@@ -1,6 +1,12 @@
-<ul>
-  <li ng-repeat="elem in ctrl2.found">
-    Name: {{ elem.name }}, Short name: {{ elem.short_name }}, Description: {{ elem.description }}
-    <button ng-click="ctrl2.onRemove({index: $index});"> Don't want this one!</button>
-  </li>
-</ul>
+<div class="row">
+  <div ng-repeat="item in foundItems" class="panel panel-info">
+    <div class="panel-heading"><h4>{{item.name}}</h4></div>
+    <div class="panel-body">
+      <span class="badge">{{item.short_name}}</span>
+      <span>{{item.description}}</span>
+      <span class="float-right">
+        <button ng-click="onRemove({index: $index})" class="btn btn-sm btn-info" >Don't want this one!</button>
+      </span>
+    </div>
+ </div>
+</div>
