@@ -1,0 +1,7 @@
+<div>
+  {{ SignUpCtrl.message }}<br>
+  <!-- Current user: {{ SignUpCtrl.registeredUser.FirstName }} {{ SignUpCtrl.registeredUser.LastName }} {{ SignUpCtrl.registeredUser.FavItemID }}<br> -->
+  Current user:
+  <a ui-sref="public.signup">{{ SignUpCtrl.registeredUser.FirstName }}
+    {{ SignUpCtrl.registeredUser.LastName }} {{ SignUpCtrl.registeredUser.FavItemID }}</a><br>
+</div>

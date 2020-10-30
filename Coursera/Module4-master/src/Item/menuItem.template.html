@@ -1,0 +1,24 @@
+<a ui-sref="home">Home</a>&lt;
+<a ui-sref="category">category</a>&lt;
+<div class="container">
+    <table class="table table-condensed">
+        <tr>
+            <th>short Name</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price(small)</th>
+            <th>Price(large)</th>
+            <th>Small Portion Name</th>
+            <th>Large Portion Name</th>
+        </tr>
+        <tr ng-repeat="menuItem in menuItem.itemList">
+            <td>{{menuItem.short_name}}</td>
+            <td>{{menuItem.name}}</td>
+            <td>{{menuItem.description}}</td>
+            <td>{{menuItem.price_small}}</td>
+            <td>{{menuItem.price_large}}</td>
+            <td>{{menuItem.small_portion_name}}</td>
+            <td>{{menuItem.large_portion_name}}</td>
+        </tr>
+    </table>
+</div>

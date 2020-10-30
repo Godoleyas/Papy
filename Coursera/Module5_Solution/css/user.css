@@ -1,0 +1,25 @@
+label {
+  font-size: 14px;
+}
+
+input {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+button {
+  font-size: 14px;
+}
+
+.ng-touched.ng-valid {
+  border: 2px green solid;
+}
+
+.ng-touched.ng-invalid {
+  border: 2px red solid;
+}
+
+.UserProfile {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
