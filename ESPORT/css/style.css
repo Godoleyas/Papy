@@ -331,3 +331,12 @@
     text-decoration: none;
     text-align: center;
 }
+
+@media (max-width: 410px) {
+    #navbar {
+        display: none;
+    }
+    #dddd {
+        display: none;
+    }
+}
