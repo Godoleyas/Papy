@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethiopian ESPORT Jackpot</title>
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Georama:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="fonts/style.css">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div id="title"><a id="titletxtlink" href="index.html"><h1 id="titletxt">Ethiopian ESPORT Jackpot</h1></a></div>
+   <div id="navbar">
+       <ul id="navbutton">
+           <li class='h'><a class="aofnav" href="#About">About Us</a></li>
+           <li class='hh'><a class="aofnav" href="#wtdowedo">How It Works</a></li>
+           <li class='hh'><a class="aofnav" href="#signin">Sign In</a></li>
+           <li class='hh'><a class="aofnav" href="#feedBack">Leave Feedback</a></li>
+       </ul>
+   </div>
+   <div id="About">
+       <h1 id="abouttxt">About Us</h1>
+       <div id="whorwe">
+           <h1 id="whorwetxt">Who Are We?</h1>
+           <h3 id="whorwedetail">
+            Ethiopian ESPORT Jackpot is the first platform in Ethiopia which offers gamers a Jackpot while gaming. For now our platform only support Fortnite and PUBGM.
+           </h3>
+       </div>
+       <div id="wut">
+       <h1 id="wtdowedotxt">How It Works</h1>
+       <div id="wtdowedo">
+           <h1 id="wtdowedotxtt">We host a jackpot competition every weekend</h1>
+           <h3 id="wtdowedodetail">
+            Well it seems weird how we called it jackpot right? Well it's like casino but it's pocket-harmless and legal. There will be PUBGM competition every saturday to participate you have to pay 5 birr and for example if 50 people join the jackpot will be 5*50 = 250birr and the winner will get 90% of the jackpot which is 225birr.
+           </h3>
+       </div>
+       </div>
+       <div id="signin">
+           <h1 id="signuptxt">Sign In</h1>
+            <!-- Sign up form -->
+        <section id="sgnup" class="signup">
+            <div class="container">
+                <div class="signup-content">
+                    <div class="signup-form">
+                        <h2 class="form-title">Sign up</h2>
+                        <form method="POST" class="register-form" id="register-form">
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="name" id="name" placeholder="Your Name" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="email"><i class="zmdi zmdi-email"></i></label>
+                                <input type="email" name="email" id="email" placeholder="Your Email" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="pass"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="password" name="pass" id="pass" placeholder="Password" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
+                                <input type="password" name="re_pass" id="re_pass" placeholder="Repeat your password" required/>
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" required/>
+                                <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service">Terms of service</a></label>
+                            </div>
+                            <div class="form-group form-button">
+                                <input type="submit" name="signup" id="signup" class="form-submit" value="Register"/>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="signup-image">
+                        <figure><img src="images/signup-image.jpg" alt="sing up image"></figure>
+                        <button id="sgnupp" onclick="alranacc()" class="signup-image-link">I am already member</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sing in  Form -->
+        <section id="sgnin" class="sign-in">
+            <div class="container">
+                <div class="signin-content">
+                    <div class="signin-image">
+                        <figure><img src="images/signin-image.jpg" alt="sing up image"></figure>
+                        <button id="createanacc" class="signup-image-link" onclick="crtanacc()">Create an account</button>
+                    </div>
+
+                    <div class="signin-form">
+                        <h2 class="form-title">Sign in</h2>
+                        <form method="POST" class="register-form" id="login-form">
+                            <div class="form-group">
+                                <label for="your_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="your_name" id="your_name" placeholder="Your Name" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="your_pass"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="password" name="your_pass" id="your_pass" placeholder="Password" required/>
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" />
+                                <label for="remember-me" class="label-agree-term"><span><span></span></span>Remember me</label>
+                            </div>
+                            <div class="form-group form-button">
+                                <input type="submit" name="signin" id="signin" class="form-submit" value="Log in"/>
+                            </div>
+                        </form>
+                        <div class="social-login">
+                            <span class="social-label">Or login with</span>
+                            <ul class="socials">
+                                <li><a href="#"><i class="display-flex-center zmdi zmdi-facebook"></i></a></li>
+                                <li><a href="#"><i class="display-flex-center zmdi zmdi-twitter"></i></a></li>
+                                <li><a href="#"><i class="display-flex-center zmdi zmdi-google"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       </div>
+   </div>
+   <div id="feedBack">
+       <h1 id="feedBacktxt">Give Us Your Feedback To Help Us Improve</h1>
+       <div id="feedBackForm">
+           <h1 id="feedBackTxt">Fill These Forms</h1>
+           <form type="POST" action="post.php">
+           <div class="container">
+               <div class="row">
+                   <div id="fname" class="col-lg-6 col-md-6 col-sm-6">
+                       <span id="fnametxt">First Name - </span>
+                       <input type="text" name="fname" required>
+                   </div>
+                   <div id="lname" class="col-lg-6 col-md-6 col-sm-6">
+                       <span id="lnametxt">Last Name - </span>
+                       <input type="text" name="lname" required>
+                   </div>
+                   <div id="tguser" class="col-lg-6 col-md-6 col-sm-6">
+                       <span id="tgusertxt">Telegram Username - </span>
+                       <input type="text" name="TgUsername" required>
+                   </div>
+                   <div id="discorduser" class="col-lg-6 col-md-6 col-sm-6">
+                       <span id="discordusertxt">Email Address - </span>
+                       <input type="email" name="email" required>
+                   </div>
+                   <div id="bodymsg" class="col-lg-12 col-md-12 col-sm-12">
+                       <textarea placeholder="Type Your Message" id="bodymsgtxtbycli" required></textarea>
+                   </div>
+                   <div id="submitdiv" class="col-lg-12 col-md-12 col-sm-12">
+                       <input id="submit" type="submit" placeholder="Submit">
+                   </div>
+               </div>
+           </div>
+           </form>
+       </div>
+   </div>
+   <footer class="footer-59391">
+      
+    <div id="huh" class="container">
+
+      
+      <div style="width: 100%;" class="row mb-5">
+        <div style="width: 100%;" class="col-md-4">
+          <div class="site-logo">
+            <a id="ttt" href="index.html">Ethiopian ESPORT Jackpot</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-5">
+        <div class="col-md-6 ">
+          <ul class="nav-links list-unstyled nav-left">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Policy</a></li>
+          </ul>
+        </div>
+        <div style="width: 150%;" class="col-md-6 text-md-right">
+          <ul class="nav-links list-unstyled nav-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#About">About Us</a></li>
+            <li><a href="#wtdowedo">What Do We Do</a></li>
+            <li><a href="#signin">Sign In</a></li>
+            <li><a href="#feedBack">FeedBack</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col ">
+          <div class="copyright">
+            <p><small>Copyright 2021. All Rights Reserved.</small></p>
+          </div>
+        </div>
+      </div>
+    
+  </div>
+</footer>
+<script src="js/jquery.min.css"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/app.js"></script>    
+</body>
+</html>
